@@ -42,7 +42,7 @@ int main() {
     if(!cin)
         cout<<"Please put the right number of product! Thank you "<<endl;
     switch (numberproduct) {
-        case '1' :
+        case 1 :
             cout << "how many product do u want to buy ? : ";
             cin >> amount;
             cout << "review before check out " << endl;
@@ -62,7 +62,7 @@ int main() {
             goto reviewcheckout1;
             break;
 
-        case '2': {
+        case 2: {
 
             cout << "how many product do u want to buy ? : ";
             cin >> amount;
@@ -84,7 +84,7 @@ int main() {
             return 0;   
 
         }
-        case '3':{
+        case 3:{
             cout << "how many product do u want to buy ? : ";
             cin >> amount;
             cout << "review before check out " << endl;
@@ -104,7 +104,7 @@ int main() {
             goto reviewcheckout3;
             return 0;
         }
-        case '4':{
+        case 4:{
             cout << "how many product do u want to buy ? : ";
             cin >> amount;
             cout << "review before check out " << endl;
@@ -124,7 +124,7 @@ int main() {
             goto reviewcheckout4;
             return 0;
         }
-        case '5':{
+        case 5:{
             cout << "how many product do u want to buy ? : ";
             cin >> amount;
             cout << "review before check out " << endl;
